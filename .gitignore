@@ -1,0 +1,39 @@
+# --- System & OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+
+# --- .egg-info folder ---
+*.egg-info/
+
+# --- Node.js / JavaScript ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Automation Outputs, Logs & Temp Screenshots ---
+*.log
+/logs/
+/temp/
+/tmp/
+*.png
+*.jpg
+*.jpeg
+*.csv
+# (Uncomment image/CSV extensions above if your automation generates temp screenshots or data files)
